@@ -1,0 +1,5 @@
+C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir
+C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/matematicas_static.dir
+C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/matematicas_shared.dir
+C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/rebuild_cache.dir

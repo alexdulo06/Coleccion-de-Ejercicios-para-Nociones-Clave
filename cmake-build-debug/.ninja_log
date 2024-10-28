@@ -1,0 +1,14 @@
+# ninja log v6
+587	696	7518377118237598	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	581227b05a98e0af
+27	574	7518377112637089	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/estudiante.cpp.obj	1b8b9b410dc26be8
+17	145	7518377112546896	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/matematicas.cpp.obj	f8a88a2325dcb7b9
+2	587	7518377112386932	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/main.cpp.obj	c324554ad5812888
+10	427	7518377112466895	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/persona.cpp.obj	448bbf6dd1d616ba
+36	148	7518377112734881	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/funciones.cpp.obj	f4c15838f835f4ab
+2	440	7518380846557121	build.ninja	8b164076c37fbbac
+43	127	7518380848567090	CMakeFiles/matematicas_static.dir/matematicas.cpp.obj	962b4bc0755a7c51
+49	137	7518380848627098	CMakeFiles/matematicas_shared.dir/matematicas.cpp.obj	a48aed37fc1553de
+128	238	7518380849417103	libmatematicas_static.a	dc4d9de449040639
+137	254	7518380850557117	libmatematicas_shared.dll	81d79b4407d42f70
+137	254	7518380850557117	libmatematicas_shared.dll.a	81d79b4407d42f70
+254	376	7518380850677103	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	4b2f4da192f9eaf3

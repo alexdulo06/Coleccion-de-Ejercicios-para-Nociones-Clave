@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Coleccion_de_Ejercicios_para_Nociones_Clave",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Coleccion_de_Ejercicios_para_Nociones_Clave::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coleccion_de_Ejercicios_para_Nociones_Clave-Debug-d4333b15a14f26acffaf.json",
+					"name" : "Coleccion_de_Ejercicios_para_Nociones_Clave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matematicas_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matematicas_shared-Debug-3c767a30bc1c4ab04df3.json",
+					"name" : "matematicas_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matematicas_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matematicas_static-Debug-0043d6462cd89329c29b.json",
+					"name" : "matematicas_static",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug",
+		"source" : "C:/Users/Alex/OneDrive/Escritorio/Coleccion-de-Ejercicios-para-Nociones-Clave"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
