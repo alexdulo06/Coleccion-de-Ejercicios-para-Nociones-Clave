@@ -1,0 +1,31 @@
+
+Ejercicio 6: Elección de un Compilador
+En este ejercicio, configuraré mi entorno para trabajar con dos compiladores diferentes en CLion (GCC y MSVC) y observaré cómo afectan el proceso de compilación y ejecución.
+
+Configurar CLion para usar GCC y MSVC:
+
+Primero, iré a File > Settings > Build, Execution, Deployment > Toolchains en CLion para establecer el compilador.
+Elegiré GCC (o MSVC si estoy en Windows) para compilar el proyecto. Configuraré una nueva herramienta de compilación o "toolchain" para cada uno, lo que implica seleccionar el compilador C y C++ correcto.
+Una vez configurado, compilaré el proyecto y observaré el comportamiento del compilador, viendo si aparecen advertencias o errores específicos.
+Comparar rendimiento y errores:
+
+Haré una copia del proyecto y cambiaré el compilador (por ejemplo, de GCC a MSVC) para ver cómo se comporta el proyecto con otro compilador.
+Compararé el rendimiento (tiempo de compilación, mensajes de error y advertencias) entre los dos compiladores. La idea es comprender cómo cada compilador maneja el código y optimiza el rendimiento o genera advertencias diferentes.
+Este ejercicio me ayuda a entender las fortalezas y limitaciones de distintos compiladores para C++ y cómo elegir uno u otro puede impactar la eficiencia y la depuración en mis proyectos.
+
+Ejercicio 7: Enlazador y Uso de Bibliotecas
+Aquí trabajaré con el enlazador para incluir y gestionar bibliotecas estándar y externas en el proyecto.
+
+Biblioteca estándar de C++:
+
+El programa ya debería estar utilizando la biblioteca estándar de C++ (por ejemplo, <iostream> para std::cout). No debería haber problemas de enlace si he configurado el compilador correctamente, ya que el enlazador localiza las bibliotecas estándar automáticamente.
+Incluir una biblioteca externa (como fmt):
+
+Modificaré el archivo CMakeLists.txt para añadir la biblioteca externa fmt. Esto implica:
+Agregar la línea find_package(fmt REQUIRED) para indicarle a CMake que busque la biblioteca.
+Asegurarme de que fmt está correctamente enlazada con mi proyecto añadiendo la línea target_link_libraries(Coleccion_de_Ejercicios_para_Nociones_Clave PRIVATE fmt::fmt).
+Luego, usaré funciones de fmt en el código para verificar que se enlaza y ejecuta correctamente.
+Orden de enlace:
+
+Probaré a cambiar el orden en target_link_libraries en CMakeLists.txt para ver si cambia el comportamiento del programa, ya que el orden de las bibliotecas puede afectar el enlace si hay dependencias.
+Este ejercicio me ayudará a entender mejor cómo enlazar bibliotecas, cómo resolver problemas de enlace y cómo configurar adecuadamente el archivo de configuración CMake para incluir dependencias externas.
